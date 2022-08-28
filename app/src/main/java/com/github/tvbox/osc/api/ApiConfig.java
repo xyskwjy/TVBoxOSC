@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://nxog.freetzi.com");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://v.looktv.vip/cat/xm/xm.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
